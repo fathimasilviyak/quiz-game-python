@@ -18,3 +18,6 @@ quiz = QuizBrain(question_bank)
 # Repeat asking questions until all the questions in the question bank are asked
 while quiz.still_has_question():
     quiz.next_question()
+
+print("You've completed the quiz!")
+print(f"Your final score is: {quiz.score}/{quiz.question_number}")
