@@ -3,6 +3,5 @@ class Question:
         self.text = q_text
         self.answer = q_answer
 
-
 # question_1 = Question("3+5=8", "True")
 # print(question_1.text)
